@@ -11,3 +11,5 @@ for (i in 1:n){
 }
 
 hist(mtcars$mpg)
+#menambahkan cor (korelasi)
+cor(mtcars$mpg,mtcars$hp)
